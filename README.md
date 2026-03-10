@@ -17,7 +17,7 @@ Download all papers from the links below.
 
 ## 🌐 Live Website
 
-🔗 https://urmit-game.netlify.app/
+🔗 https://bca-sem-3-paper.netlify.app/
 
 ---
 
