@@ -1,0 +1,77 @@
+*{
+    /* margin: 0%; */
+    /* padding: 0%; */
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body {
+   background: linear-gradient(to right,rgb(10, 184, 227), #4e73bc, #090909);
+    /* background: linear-gradient(to right, #081b08, #ffffff); */
+    font-family: Arial, sans-serif;
+}
+
+h1, h2 {
+    text-align: center;
+    color: #e80808; /* a softer red */
+}
+
+h3 {
+    text-align: center;
+    color: #c9ff06e1;
+}
+
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3rem;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.paper {
+    width: 150px;
+    height: 200px;
+    /* background-color: rgba(216, 220, 96, 0.964); */
+    background: linear-gradient(to top,black,rgb(208, 208, 205));
+    border-radius: 10px;
+    border: 2px solid  yellow;
+    text-align: center;
+    /* box-shadow: 2px 2px 6px rgba(0,0,0,0.2); */
+    box-shadow: inset 0px 0px 30px 5px yellow;
+    transition: transform 0.2s ease, background-color 0.2s ease;
+}
+
+.paper:hover {
+    transform: scale(1.05);
+    background: linear-gradient(to top,black,rgb(228, 228, 2));
+}
+.btnD{
+    
+    color: gold ;
+    background:linear-gradient(to right ,red,blue);
+    padding:  4%;
+    border-radius: 10px;
+     display: inline-block;
+    margin-top: 30px;
+}
+ h1{
+    animation: colorChange 3s infinite;
+}
+
+@keyframes colorChange {
+    0%{
+        color: red;
+    }
+    25%{
+        color: yellow;
+    }
+    50%{
+        color: blue;
+    }
+    75%{
+        color: green;
+    }
+    100%{
+        color: red;
+    }
+}
