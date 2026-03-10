@@ -11,12 +11,12 @@ All BCA Semester 3 previous year papers available for download.
 
 ## 📂 Download Links
 
-| Subject | Download |
+| Subject | 
 |--------|--------|
-| C++ | paper/C++.zip |
-| Network 2024 | paper/Network%202024.pdf.zip |
-| Oracle | paper/Oracle.zip |
-| OST 2024 | paper/Ost%202024.pdf.zip |
+| C++ | 
+| Network | 
+| Oracle | 
+| OST 2024 | 
 
 ---
 
