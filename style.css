@@ -12,7 +12,7 @@ body {
 
 h1, h2 {
     text-align: center;
-    color: #e80808; /* a softer red */
+    color: #0a318c; /* a softer red */
 }
 
 h3 {
@@ -44,11 +44,15 @@ h3 {
 .paper:hover {
     transform: scale(1.05);
     background: linear-gradient(to top,black,rgb(2, 171, 228));
+
+}
+.btnD:hover{
+    background: linear-gradient(to right ,black,black);
 }
 .btnD{
     
-    color: gold ;
-    background:linear-gradient(to right ,red,blue);
+    color: rgb(255, 0, 0) ;
+    background:linear-gradient(to left ,rgba(25, 25, 25, 0),rgba(9, 9, 9, 0.704));
     padding:  4%;
     border-radius: 10px;
      display: inline-block;
